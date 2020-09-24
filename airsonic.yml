@@ -42,5 +42,6 @@ devices:
 - host: "/dev/null"
   container: "/dev/null"
 labels:
-- label: "local.yacht.test
+- label: "local.yacht.test"
   value: "test"
+  
