@@ -13,7 +13,7 @@ categories:
 platform: linux
 restart_policy: unless-stopped
 ports:
-- 4040:4040/tcp
+- webui: 4040:4040/tcp
 volumes:
 - container: "/music"
   bind: "/portainer/Music"
