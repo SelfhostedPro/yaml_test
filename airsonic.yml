@@ -34,7 +34,13 @@ env:
   default: '100'
 - name: CONTEXT_PATH
   label: CONTEXT_PATH
-  set: airsonic
+  default: airsonic
 - name: JAVA_OPTS
   label: JAVA_OPTS
-  set: "-Xms256m -Xmx512m"
+  default: "-Xms256m -Xmx512m"
+devices:
+- host: "/dev/null"
+  container: "/dev/null"
+labels:
+- label: "local.yacht.test
+  value: "test"
