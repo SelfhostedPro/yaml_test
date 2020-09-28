@@ -1408,7 +1408,7 @@
         "WebUI": "8096:8096/tcp",
         "HTTPS WebUI": "8920:8920/tcp",
         "DNLA": "1900:1900/udp",
-        "Discovery": "7359/7359/udp"
+        "Discovery": "7359:7359/udp"
       }
     ],
     "volumes": [
