@@ -12,8 +12,6 @@
   - Music
   platform: linux
   restart_policy: unless-stopped
-  ports:
-  - 4040:4040/tcp
   volumes:
   - container: "/music"
     bind: "!music"
