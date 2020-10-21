@@ -1,0 +1,15 @@
+---
+title: Yahct-Develop
+name: yacht-dev
+description: Yacht development branch for testing.
+logo: https://raw.githubusercontent.com/SelfhostedPro/Yacht/master/readme_media/Yacht_logo_1_dark.png
+image: selfhostedpro/yacht:devel
+categories:
+- Tools
+platform: linux
+restart_policy: unless-stopped
+ports:
+- 8005:8000/tcp
+volumes:
+- container: "/var/run/docker.sock"
+  bind: "/var/run/docker.sock"
