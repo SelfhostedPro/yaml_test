@@ -1,0 +1,99 @@
+[
+  {
+    "type": 1,
+    "title": "Beets",
+    "name": "beets",
+    "description": "The purpose of beets is to get your music collection right once and for all. It catalogs your collection, automatically improving its metadata as it goes using the MusicBrainz database. Then it provides a bouquet of tools for manipulating and accessing your music.",
+    "logo": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/beets-icon.png",
+    "image": "linuxserver/beets:latest",
+    "categories": [
+      "Music"
+    ],
+    "platform": "linux",
+    "restart_policy": "unless-stopped",
+    "volumes": [
+      {
+        "container": "/config",
+        "bind": "!config/Beets"
+      },
+      {
+        "container": "/downloads",
+        "bind": "!downloads"
+      },
+      {
+        "container": "/music",
+        "bind": "!music"
+      }
+    ],
+    "env": [
+      {
+        "name": "PUID",
+        "label": "PUID",
+        "default": "!PUID"
+      },
+      {
+        "name": "PGID",
+        "label": "PGID",
+        "default": "!PGID"
+      }
+    ],
+    "labels": [
+      {
+        "label": "traefik.http.services.beets.loadbalancer.server.scheme",
+        "value": "http"
+      },
+      {
+        "label": "traefik.http.services.beets.loadbalancer.server.port",
+        "value": "8337"
+      },
+      {
+        "label": "traefik.enable",
+        "value": "true"
+      },
+      {
+        "label": "traefik.docker.network",
+        "value": "!traefik_network_name"
+      },
+      {
+        "label": "traefik.http.routers.beets-http.service",
+        "value": "beets"
+      },
+      {
+        "label": "traefik.http.routers.beets-http.rule",
+        "value": "Host(`beets.domain.tld`)"
+      },
+      {
+        "label": "traefik.http.routers.beets-http.entrypoints",
+        "value": "!traefik_http_name"
+      },
+      {
+        "label": "traefik.http.routers.beets.service",
+        "value": "beets"
+      },
+      {
+        "label": "traefik.http.routers.beets.rule",
+        "value": "Host(`beets.domain.tld`)"
+      },
+      {
+        "label": "traefik.http.routers.beets.entrypoints",
+        "value": "!traefik_https_name"
+      },
+      {
+        "label": "traefik.http.routers.beets.tls",
+        "value": "true"
+      },
+      {
+        "label": "traefik.http.routers.beets.tls.certresolver",
+        "value": "dns"
+      },
+      {
+        "label": "traefik.http.routers.beets.tls.domains[0].main",
+        "value": "!traefik_dns_domain"
+      },
+      {
+        "label": "traefik.http.routers.beets.tls.domains[0].sans",
+        "value": "!traefik_dns_sans_domain"
+      }
+    ]
+  }
+]
