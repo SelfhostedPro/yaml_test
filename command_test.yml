@@ -1,0 +1,18 @@
+---
+type: 1
+title: Prometheus
+name: prometheus
+description: This is a test of the command feature
+logo: https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/airsonic-logo.png
+image: prom/prometheus:latest
+categories:
+- Development
+platform: linux
+restart_policy: unless-stopped
+ports:
+  - webui: 9090:9090/tcp
+command:
+  - '--config.file=/etc/prometheus/prometheus.yml'
+  - '--storage.tsdb.path=/prometheus'
+  - '--web.console.libraries=/usr/share/prometheus/console_libraries'
+  - '--web.console.templates=/usr/share/prometheus/consoles'
