@@ -1,0 +1,1530 @@
+- image: linuxserver/organizr:version-f6d984d2
+  name: organizr
+  platform: linux
+  restart_policy: unless-stopped
+  title: Organizr
+  type: '2'
+- image: linuxserver/pixapop:version-v1.2
+  name: pixapop
+  platform: linux
+  restart_policy: unless-stopped
+  title: Pixapop
+  type: '2'
+- image: linuxserver/sickbeard:96
+  name: sickbeard
+  platform: linux
+  restart_policy: unless-stopped
+  title: Sickbeard
+  type: '2'
+- image: linuxserver/adguardhome-sync:version-v0.1.1
+  name: adguardhome-sync
+  platform: linux
+  restart_policy: unless-stopped
+  title: Adguardhome-sync
+  type: '2'
+- env:
+  - default: =!TZ
+    name: TZ
+  - default: '!PUID'
+    label: PUID
+    name: PUID
+  - default: '!PGID'
+    label: PGID
+    name: PGID
+  - label: JAVA_OPTS
+    name: JAVA_OPTS
+  - label: CONTEXT_PATH
+    name: CONTEXT_PATH
+  image: linuxserver/airsonic:version-v10.6.2
+  name: airsonic
+  platform: linux
+  ports:
+  - 4040:4040/tcp
+  restart_policy: unless-stopped
+  title: Airsonic
+  type: '2'
+  volumes:
+  - bind: '!/podcasts'
+    container: /podcasts
+  - bind: '!/playlists'
+    container: /playlists
+  - bind: '!/music'
+    container: /music
+  - bind: '!/media'
+    container: /media
+  - bind: '!/config'
+    container: /config
+- image: linuxserver/apache:87
+  name: apache
+  platform: linux
+  restart_policy: unless-stopped
+  title: Apache
+  type: '2'
+- image: linuxserver/apprise-api:version-v0.6.1
+  name: apprise-api
+  platform: linux
+  restart_policy: unless-stopped
+  title: Apprise-api
+  type: '2'
+- env:
+  - label: UMASK_SET
+    name: UMASK_SET
+  - default: =!TZ
+    name: TZ
+  - label: PUID
+    name: PUID
+  - label: PGID
+    name: PGID
+  image: linuxserver/bazarr:version-v0.9.3
+  name: bazarr
+  platform: linux
+  ports:
+  - 6767:6767/tcp
+  restart_policy: unless-stopped
+  title: Bazarr
+  type: '2'
+  volumes:
+  - bind: '!/tv'
+    container: /tv
+  - bind: '!/movies'
+    container: /movies
+  - bind: '!/config'
+    container: /config
+- env:
+  - default: =!TZ
+    name: TZ
+  - label: PUID
+    name: PUID
+  - label: PGID
+    name: PGID
+  image: linuxserver/beets:version-1.4.9
+  name: beets
+  platform: linux
+  ports:
+  - 8337:8337/tcp
+  restart_policy: unless-stopped
+  title: Beets
+  type: '2'
+  volumes:
+  - bind: '!/music'
+    container: /music
+  - bind: '!/downloads'
+    container: /downloads
+  - bind: '!/config'
+    container: /config
+- env:
+  - default: =!TZ
+    name: TZ
+  - label: PUID
+    name: PUID
+  - label: PGID
+    name: PGID
+  - label: GUAC_USER
+    name: GUAC_USER
+  - label: GUAC_PASS
+    name: GUAC_PASS
+  image: linuxserver/boinc:version-7.16.16dfsg202102040952ubuntu18.04.1
+  name: boinc
+  platform: linux
+  ports:
+  - 8080:8080/tcp
+  restart_policy: unless-stopped
+  title: Boinc
+  type: '2'
+  volumes:
+  - bind: '!/config'
+    container: /config
+- env:
+  - default: =!TZ
+    name: TZ
+  - label: PUID
+    name: PUID
+  - label: PGID
+    name: PGID
+  - label: CONTEXT_PATH
+    name: CONTEXT_PATH
+  image: linuxserver/booksonic:version-1.2
+  name: booksonic
+  platform: linux
+  ports:
+  - 4040:4040/tcp
+  restart_policy: unless-stopped
+  title: Booksonic
+  type: '2'
+  volumes:
+  - bind: '!/podcasts'
+    container: /podcasts
+  - bind: '!/othermedia'
+    container: /othermedia
+  - bind: '!/config'
+    container: /config
+  - bind: '!/audiobooks'
+    container: /audiobooks
+- env:
+  - default: '!TZ'
+    label: TZ
+    name: TZ
+  - default: '!PUID'
+    label: PUID
+    name: PUID
+  - default: '!PGID'
+    label: PGID
+    name: PGID
+  - default: '!CONTEXT_PATH'
+    label: CONTEXT_PATH
+    name: CONTEXT_PATH
+  image: linuxserver/booksonic-air:version-v2009.1.0
+  name: booksonic-air
+  platform: linux
+  ports:
+  - 4040:4040/tcp
+  restart_policy: unless-stopped
+  title: Booksonic-air
+  type: '2'
+  volumes:
+  - bind: '!/podcasts'
+    container: /podcasts
+  - bind: '!/othermedia'
+    container: /othermedia
+  - bind: '!/config'
+    container: /config
+  - bind: '!/audiobooks'
+    container: /audiobooks
+- env:
+  - label: PUID
+    name: PUID
+  - label: PGID
+    name: PGID
+  - label: DB_USER
+    name: DB_USER
+  - label: DB_PASS
+    name: DB_PASS
+  - label: DB_HOST
+    name: DB_HOST
+  - label: DB_DATABASE
+    name: DB_DATABASE
+  - label: APP_URL
+    name: APP_URL
+  image: linuxserver/bookstack:version-v21.04
+  name: bookstack
+  platform: linux
+  ports:
+  - 80:80/tcp
+  restart_policy: unless-stopped
+  title: Bookstack
+  type: '2'
+  volumes:
+  - bind: '!/config'
+    container: /config
+- env:
+  - label: UMASK_SET
+    name: UMASK_SET
+  - default: =!TZ
+    name: TZ
+  - label: PUID
+    name: PUID
+  - label: PGID
+    name: PGID
+  - label: GUAC_USER
+    name: GUAC_USER
+  - label: GUAC_PASS
+    name: GUAC_PASS
+  image: linuxserver/calibre:version-v5.14.0
+  name: calibre
+  platform: linux
+  ports:
+  - 8081:8081/tcp
+  - 8080:8080/tcp
+  restart_policy: unless-stopped
+  title: Calibre
+  type: '2'
+  volumes:
+  - bind: '!/config'
+    container: /config
+- env:
+  - default: =!TZ
+    name: TZ
+  - default: '!PUID'
+    label: PUID
+    name: PUID
+  - default: '!PGID'
+    label: PGID
+    name: PGID
+  - default: '!DOCKER_MODS'
+    label: DOCKER_MODS
+    name: DOCKER_MODS
+  image: linuxserver/calibre-web:version-0.6.11
+  name: calibre-web
+  platform: linux
+  ports:
+  - 8083:8083/tcp
+  restart_policy: unless-stopped
+  title: Calibre-web
+  type: '2'
+  volumes:
+  - bind: '!/config'
+    container: /config
+  - bind: '!/books'
+    container: /books
+- image: linuxserver/cardigann:v1.10.2-ls18
+  name: cardigann
+  platform: linux
+  restart_policy: unless-stopped
+  title: Cardigann
+  type: '2'
+- env:
+  - default: '!TZ'
+    label: TZ
+    name: TZ
+  - default: '!PUID'
+    label: PUID
+    name: PUID
+  - default: '!PGID'
+    label: PGID
+    name: PGID
+  image: linuxserver/chevereto:version-1.3.0
+  name: chevereto
+  platform: linux
+  ports:
+  - 443:443/tcp
+  - 80:80/tcp
+  restart_policy: unless-stopped
+  title: Chevereto
+  type: '2'
+  volumes:
+  - bind: '!/config'
+    container: /config
+- env:
+  - default: '!TZ'
+    label: TZ
+    name: TZ
+  - default: '!PUID'
+    label: PUID
+    name: PUID
+  - default: '!PGID'
+    label: PGID
+    name: PGID
+  - default: '!MYSQL_USERNAME'
+    label: MYSQL_USERNAME
+    name: MYSQL_USERNAME
+  - default: '!MYSQL_PASSWORD'
+    label: MYSQL_PASSWORD
+    name: MYSQL_PASSWORD
+  - default: '!MYSQL_HOST'
+    label: MYSQL_HOST
+    name: MYSQL_HOST
+  - default: '!ENABLE_REGISTRATIONS'
+    label: ENABLE_REGISTRATIONS
+    name: ENABLE_REGISTRATIONS
+  image: linuxserver/clarkson:version-v1.1.2
+  name: clarkson
+  platform: linux
+  ports:
+  - 3000:3000/tcp
+  restart_policy: unless-stopped
+  title: Clarkson
+  type: '2'
+- env:
+  - label: USERNAME
+    name: USERNAME
+  - default: '!TZ'
+    label: TZ
+    name: TZ
+  - label: PUID
+    name: PUID
+  - label: PGID
+    name: PGID
+  - label: PASSWORD
+    name: PASSWORD
+  - default: '!GITURL'
+    label: GITURL
+    name: GITURL
+  image: linuxserver/cloud9:version-1.29.0
+  name: cloud9
+  platform: linux
+  ports:
+  - 8000:8000/tcp
+  restart_policy: unless-stopped
+  title: Cloud9
+  type: '2'
+  volumes:
+  - bind: '!/var/run/docker.sock'
+    container: /var/run/docker.sock
+  - bind: '!/code'
+    container: /code
+- env:
+  - default: '!TZ'
+    label: TZ
+    name: TZ
+  - default: '!SUDO_PASSWORD'
+    label: SUDO_PASSWORD
+    name: SUDO_PASSWORD
+  - default: '!PUID'
+    label: PUID
+    name: PUID
+  - default: '!PROXY_DOMAIN'
+    label: PROXY_DOMAIN
+    name: PROXY_DOMAIN
+  - default: '!PGID'
+    label: PGID
+    name: PGID
+  - default: '!PASSWORD'
+    label: PASSWORD
+    name: PASSWORD
+  image: linuxserver/code-server:version-v3.9.3
+  name: code-server
+  platform: linux
+  ports:
+  - 8443:8443/tcp
+  restart_policy: unless-stopped
+  title: Code-server
+  type: '2'
+  volumes:
+  - bind: '!/config'
+    container: /config
+- env:
+  - default: '!TZ'
+    label: TZ
+    name: TZ
+  - default: '!PUID'
+    label: PUID
+    name: PUID
+  - default: '!PGID'
+    label: PGID
+    name: PGID
+  image: linuxserver/codiad:97f1331a-ls19
+  name: codiad
+  platform: linux
+  ports:
+  - 80:80/tcp
+  restart_policy: unless-stopped
+  title: Codiad
+  type: '2'
+  volumes:
+  - bind: '!/config'
+    container: /config
+- env:
+  - default: '!TZ'
+    label: TZ
+    name: TZ
+  - default: '!PUID'
+    label: PUID
+    name: PUID
+  - default: '!PGID'
+    label: PGID
+    name: PGID
+  image: linuxserver/cops:version-1.1.3
+  name: cops
+  platform: linux
+  ports:
+  - 80:80/tcp
+  restart_policy: unless-stopped
+  title: Cops
+  type: '2'
+  volumes:
+  - bind: '!/config'
+    container: /config
+  - bind: '!/books'
+    container: /books
+- env:
+  - default: '!UMASK_SET'
+    label: UMASK_SET
+    name: UMASK_SET
+  - default: '!TZ'
+    label: TZ
+    name: TZ
+  - default: '!PUID'
+    label: PUID
+    name: PUID
+  - default: '!PGID'
+    label: PGID
+    name: PGID
+  image: linuxserver/couchpotato:version-7260c12f
+  name: couchpotato
+  platform: linux
+  ports:
+  - 5050:5050/tcp
+  restart_policy: unless-stopped
+  title: Couchpotato
+  type: '2'
+  volumes:
+  - bind: '!/movies'
+    container: /movies
+  - bind: '!/downloads'
+    container: /downloads
+  - bind: '!/config'
+    container: /config
+- env:
+  - default: '!TZ'
+    label: TZ
+    name: TZ
+  - default: '!PUID'
+    label: PUID
+    name: PUID
+  - default: '!PGID'
+    label: PGID
+    name: PGID
+  image: linuxserver/daapd:version-27.4
+  name: daapd
+  platform: linux
+  restart_policy: unless-stopped
+  title: Daapd
+  type: '2'
+  volumes:
+  - bind: '!/music'
+    container: /music
+  - bind: '!/config'
+    container: /config
+- image: linuxserver/darktable:version-3.4.0-r0
+  name: darktable
+  platform: linux
+  restart_policy: unless-stopped
+  title: Darktable
+  type: '2'
+- env:
+  - default: '!PUID'
+    label: PUID
+    name: PUID
+  - default: '!PGID'
+    label: PGID
+    name: PGID
+  image: linuxserver/davos:version-2.2.1
+  name: davos
+  platform: linux
+  ports:
+  - 8080:8080/tcp
+  restart_policy: unless-stopped
+  title: Davos
+  type: '2'
+  volumes:
+  - bind: '!/etc/localtime'
+    container: /etc/localtime
+  - bind: '!/download'
+    container: /download
+  - bind: '!/config'
+    container: /config
+- env:
+  - default: '!TZ'
+    label: TZ
+    name: TZ
+  - default: '!PUID'
+    label: PUID
+    name: PUID
+  - default: '!PGID'
+    label: PGID
+    name: PGID
+  image: linuxserver/ddclient:version-v3.9.1
+  name: ddclient
+  platform: linux
+  restart_policy: unless-stopped
+  title: Ddclient
+  type: '2'
+  volumes:
+  - bind: '!/config'
+    container: /config
+- env:
+  - default: '!UMASK_SET'
+    label: UMASK_SET
+    name: UMASK_SET
+  - default: '!TZ'
+    label: TZ
+    name: TZ
+  - default: '!PUID'
+    label: PUID
+    name: PUID
+  - default: '!PGID'
+    label: PGID
+    name: PGID
+  - default: '!DELUGE_LOGLEVEL'
+    label: DELUGE_LOGLEVEL
+    name: DELUGE_LOGLEVEL
+  image: linuxserver/deluge:version-2.0.3-2201906121747ubuntu18.04.1
+  name: deluge
+  platform: linux
+  restart_policy: unless-stopped
+  title: Deluge
+  type: '2'
+  volumes:
+  - bind: '!/downloadst'
+    container: /downloadst
+  - bind: '!/config'
+    container: /config
+- env:
+  - default: '!TZ'
+    label: TZ
+    name: TZ
+  - default: '!PUID'
+    label: PUID
+    name: PUID
+  - default: '!PGID'
+    label: PGID
+    name: PGID
+  image: linuxserver/digikam:version-7.2.0
+  name: digikam
+  platform: linux
+  restart_policy: unless-stopped
+  title: Digikam
+  type: '2'
+  volumes:
+  - bind: '!/config'
+    container: /config
+- env:
+  - default: '!TZ'
+    label: TZ
+    name: TZ
+  - default: '!PUID'
+    label: PUID
+    name: PUID
+  - default: '!PGID'
+    label: PGID
+    name: PGID
+  image: linuxserver/dillinger:version-v3.39.1
+  name: dillinger
+  platform: linux
+  ports:
+  - 8080:8080/tcp
+  restart_policy: unless-stopped
+  title: Dillinger
+  type: '2'
+  volumes:
+  - bind: '!/config'
+    container: /config
+- env:
+  - label: WORKER_OPTS
+    name: WORKER_OPTS
+  - default: '!USE_CRON'
+    label: USE_CRON
+    name: USE_CRON
+  - default: '!TZ'
+    label: TZ
+    name: TZ
+  - default: '!RUN_ON_START'
+    label: RUN_ON_START
+    name: RUN_ON_START
+  - default: '!REDIS_PORT'
+    label: REDIS_PORT
+    name: REDIS_PORT
+  - default: '!REDIS_HOST'
+    label: REDIS_HOST
+    name: REDIS_HOST
+  - default: '!PUID'
+    label: PUID
+    name: PUID
+  - default: '!PGID'
+    label: PGID
+    name: PGID
+  - default: '!INDEX_NAME'
+    label: INDEX_NAME
+    name: INDEX_NAME
+  - default: '!ES_USER'
+    label: ES_USER
+    name: ES_USER
+  - default: '!ES_PORT'
+    label: ES_PORT
+    name: ES_PORT
+  - default: '!ES_PASS'
+    label: ES_PASS
+    name: ES_PASS
+  - default: '!ES_HOST'
+    label: ES_HOST
+    name: ES_HOST
+  - label: DISKOVER_OPTS
+    name: DISKOVER_OPTS
+  image: linuxserver/diskover:version-v1.5.0.13
+  name: diskover
+  platform: linux
+  ports:
+  - 9999:9999/tcp
+  - 9181:9181/tcp
+  - 80:80/tcp
+  restart_policy: unless-stopped
+  title: Diskover
+  type: '2'
+  volumes:
+  - bind: '!/data'
+    container: /data
+  - bind: '!/config'
+    container: /config
+- image: linuxserver/doc-builder:f77840f8-ls6
+  name: doc-builder
+  platform: linux
+  restart_policy: unless-stopped
+  title: Doc-builder
+  type: '2'
+- image: linuxserver/docker-compose:version-1.29.0
+  name: docker-compose
+  platform: linux
+  restart_policy: unless-stopped
+  title: Docker-compose
+  type: '2'
+- env:
+  - default: '!TZ'
+    label: TZ
+    name: TZ
+  - default: '!PUID'
+    label: PUID
+    name: PUID
+  - default: '!PGID'
+    label: PGID
+    name: PGID
+  image: linuxserver/dokuwiki:version-2020-07-29
+  name: dokuwiki
+  platform: linux
+  ports:
+  - 443:443/tcp
+  - 80:80/tcp
+  restart_policy: unless-stopped
+  title: Dokuwiki
+  type: '2'
+  volumes:
+  - bind: '!/config'
+    container: /config
+- env:
+  - default: '!WEBROOT'
+    label: WEBROOT
+    name: WEBROOT
+  - default: '!TZ'
+    label: TZ
+    name: TZ
+  - default: '!PUID'
+    label: PUID
+    name: PUID
+  - default: '!PGID'
+    label: PGID
+    name: PGID
+  image: linuxserver/domoticz:version-2020.2
+  name: domoticz
+  platform: linux
+  ports:
+  - 8080:8080/tcp
+  - 6144:6144/tcp
+  - 1443:1443/tcp
+  restart_policy: unless-stopped
+  title: Domoticz
+  type: '2'
+  volumes:
+  - bind: '!/config'
+    container: /config
+- env:
+  - default: '!TZ'
+    label: TZ
+    name: TZ
+  - default: '!PUID'
+    label: PUID
+    name: PUID
+  - default: '!PGID'
+    label: PGID
+    name: PGID
+  image: linuxserver/doublecommander:version-0.8.2-1
+  name: doublecommander
+  platform: linux
+  ports:
+  - 3000:3000/tcp
+  restart_policy: unless-stopped
+  title: Doublecommander
+  type: '2'
+  volumes:
+  - bind: '!/data'
+    container: /data
+  - bind: '!/config'
+    container: /config
+- image: linuxserver/duckdns:version-48732f94
+  name: duckdns
+  platform: linux
+  restart_policy: unless-stopped
+  title: Duckdns
+  type: '2'
+- image: linuxserver/duplicati:version-v2.0.5.1-2.0.5.1_beta_2020-01-18
+  name: duplicati
+  platform: linux
+  restart_policy: unless-stopped
+  title: Duplicati
+  type: '2'
+- env:
+  - label: UMASK_SET
+    name: UMASK_SET
+  - default: =!TZ
+    name: TZ
+  - label: PUID
+    name: PUID
+  - label: PGID
+    name: PGID
+  image: linuxserver/emby:version-4.5.4.0
+  name: emby
+  platform: linux
+  ports:
+  - 8920:8920/tcp
+  - 8096:8096/tcp
+  restart_policy: unless-stopped
+  title: Emby
+  type: '2'
+  volumes:
+  - bind: '!/transcode'
+    container: /transcode
+  - bind: '!/opt/vc/lib'
+    container: /opt/vc/lib
+  - bind: '!/data/tvshows'
+    container: /data/tvshows
+  - bind: '!/data/movies'
+    container: /data/movies
+  - bind: '!/config'
+    container: /config
+- image: linuxserver/embystat:version-0.2.0-beta.24
+  name: embystat
+  platform: linux
+  restart_policy: unless-stopped
+  title: Embystat
+  type: '2'
+- image: linuxserver/ffmpeg:version-4.3-cli
+  name: ffmpeg
+  platform: linux
+  restart_policy: unless-stopped
+  title: Ffmpeg
+  type: '2'
+- image: linuxserver/fleet:version-2.2.1
+  name: fleet
+  platform: linux
+  restart_policy: unless-stopped
+  title: Fleet
+  type: '2'
+- image: linuxserver/flood:112
+  name: flood
+  platform: linux
+  restart_policy: unless-stopped
+  title: Flood
+  type: '2'
+- image: linuxserver/foldingathome:version-7.6.21
+  name: foldingathome
+  platform: linux
+  restart_policy: unless-stopped
+  title: Foldingathome
+  type: '2'
+- image: linuxserver/freshrss:version-1.18.0
+  name: freshrss
+  platform: linux
+  restart_policy: unless-stopped
+  title: Freshrss
+  type: '2'
+- image: linuxserver/gazee:7dbacd86-ls11
+  name: gazee
+  platform: linux
+  restart_policy: unless-stopped
+  title: Gazee
+  type: '2'
+- image: linuxserver/grav:version-1.7.10
+  name: grav
+  platform: linux
+  restart_policy: unless-stopped
+  title: Grav
+  type: '2'
+- image: linuxserver/grocy:version-v3.0.1
+  name: grocy
+  platform: linux
+  restart_policy: unless-stopped
+  title: Grocy
+  type: '2'
+- image: linuxserver/guacd:version-1.2.0
+  name: guacd
+  platform: linux
+  restart_policy: unless-stopped
+  title: Guacd
+  type: '2'
+- image: linuxserver/habridge:version-v5.4.0
+  name: habridge
+  platform: linux
+  restart_policy: unless-stopped
+  title: Habridge
+  type: '2'
+- image: linuxserver/headphones:version-379fd3d0
+  name: headphones
+  platform: linux
+  restart_policy: unless-stopped
+  title: Headphones
+  type: '2'
+- image: linuxserver/healthchecks:version-v1.19.0
+  name: healthchecks
+  platform: linux
+  restart_policy: unless-stopped
+  title: Healthchecks
+  type: '2'
+- image: linuxserver/hedgedoc:version-1.7.2
+  name: hedgedoc
+  platform: linux
+  restart_policy: unless-stopped
+  title: Hedgedoc
+  type: '2'
+- image: linuxserver/heimdall:version-2.2.2
+  name: heimdall
+  platform: linux
+  restart_policy: unless-stopped
+  title: Heimdall
+  type: '2'
+- image: linuxserver/homeassistant:version-2021.4.3
+  name: homeassistant
+  platform: linux
+  restart_policy: unless-stopped
+  title: Homeassistant
+  type: '2'
+- image: linuxserver/htpcmanager:version-13f17959
+  name: htpcmanager
+  platform: linux
+  restart_policy: unless-stopped
+  title: Htpcmanager
+  type: '2'
+- image: linuxserver/hydra:version-0.2.233
+  name: hydra
+  platform: linux
+  restart_policy: unless-stopped
+  title: Hydra
+  type: '2'
+- image: linuxserver/hydra2:v2.19.6-ls69
+  name: hydra2
+  platform: linux
+  restart_policy: unless-stopped
+  title: Hydra2
+  type: '2'
+- image: linuxserver/ipfs:version-v2.11.4
+  name: ipfs
+  platform: linux
+  restart_policy: unless-stopped
+  title: Ipfs
+  type: '2'
+- image: linuxserver/jackett:version-v0.17.876
+  name: jackett
+  platform: linux
+  restart_policy: unless-stopped
+  title: Jackett
+  type: '2'
+- image: linuxserver/jellyfin:version-10.7.2-1
+  name: jellyfin
+  platform: linux
+  restart_policy: unless-stopped
+  title: Jellyfin
+  type: '2'
+- image: linuxserver/jenkins-builder:version-fc9b9411
+  name: jenkins-builder
+  platform: linux
+  restart_policy: unless-stopped
+  title: Jenkins-builder
+  type: '2'
+- image: linuxserver/kanzi:version-10.29.2020-7cec59f
+  name: kanzi
+  platform: linux
+  restart_policy: unless-stopped
+  title: Kanzi
+  type: '2'
+- image: linuxserver/kodi-headless:190
+  name: kodi-headless
+  platform: linux
+  restart_policy: unless-stopped
+  title: Kodi-headless
+  type: '2'
+- image: linuxserver/lazylibrarian:version-eecbeabe
+  name: lazylibrarian
+  platform: linux
+  restart_policy: unless-stopped
+  title: Lazylibrarian
+  type: '2'
+- image: linuxserver/ldap-auth:version-3.3.1
+  name: ldap-auth
+  platform: linux
+  restart_policy: unless-stopped
+  title: Ldap-auth
+  type: '2'
+- image: linuxserver/letsencrypt:version-1.11.0
+  name: letsencrypt
+  platform: linux
+  restart_policy: unless-stopped
+  title: Letsencrypt
+  type: '2'
+- image: linuxserver/libreoffice:version-6.4.6.2-r2
+  name: libreoffice
+  platform: linux
+  restart_policy: unless-stopped
+  title: Libreoffice
+  type: '2'
+- image: linuxserver/libresonic:v6.2-ls12
+  name: libresonic
+  platform: linux
+  restart_policy: unless-stopped
+  title: Libresonic
+  type: '2'
+- image: linuxserver/librespeed:version-5.2.4
+  name: librespeed
+  platform: linux
+  restart_policy: unless-stopped
+  title: Librespeed
+  type: '2'
+- image: linuxserver/lidarr:version-0.7.2.1878
+  name: lidarr
+  platform: linux
+  restart_policy: unless-stopped
+  title: Lidarr
+  type: '2'
+- image: linuxserver/limnoria:version-2021.04.11
+  name: limnoria
+  platform: linux
+  restart_policy: unless-stopped
+  title: Limnoria
+  type: '2'
+- image: linuxserver/lychee:version-v4.2.2
+  name: lychee
+  platform: linux
+  restart_policy: unless-stopped
+  title: Lychee
+  type: '2'
+- env:
+  - default: '!TZ'
+    label: TZ
+    name: TZ
+  - default: '!REMOTE_SQL'
+    label: REMOTE_SQL
+    name: REMOTE_SQL
+  - default: '!PUID'
+    label: PUID
+    name: PUID
+  - default: '!PGID'
+    label: PGID
+    name: PGID
+  - default: '!MYSQL_USER'
+    label: MYSQL_USER
+    name: MYSQL_USER
+  - default: '!MYSQL_ROOT_PASSWORD'
+    label: MYSQL_ROOT_PASSWORD
+    name: MYSQL_ROOT_PASSWORD
+  - default: '!MYSQL_PASSWORD'
+    label: MYSQL_PASSWORD
+    name: MYSQL_PASSWORD
+  - default: '!MYSQL_DATABASE'
+    label: MYSQL_DATABASE
+    name: MYSQL_DATABASE
+  image: linuxserver/mariadb:version-110.4.18mariabionic
+  name: mariadb
+  platform: linux
+  ports:
+  - 3306:3306/tcp
+  restart_policy: unless-stopped
+  title: Mariadb
+  type: '2'
+  volumes:
+  - bind: '!/config'
+    container: /config
+- image: linuxserver/mcmyadmin2:125
+  name: mcmyadmin2
+  platform: linux
+  restart_policy: unless-stopped
+  title: Mcmyadmin2
+  type: '2'
+- image: linuxserver/medusa:version-v0.5.10
+  name: medusa
+  platform: linux
+  restart_policy: unless-stopped
+  title: Medusa
+  type: '2'
+- image: linuxserver/minetest:version-5.4.1
+  name: minetest
+  platform: linux
+  restart_policy: unless-stopped
+  title: Minetest
+  type: '2'
+- image: linuxserver/minisatip:version-6872bc1e
+  name: minisatip
+  platform: linux
+  restart_policy: unless-stopped
+  title: Minisatip
+  type: '2'
+- image: linuxserver/mods:swag-ioncube
+  name: mods
+  platform: linux
+  restart_policy: unless-stopped
+  title: Mods
+  type: '2'
+- image: linuxserver/mstream:version-v4.7.0
+  name: mstream
+  platform: linux
+  restart_policy: unless-stopped
+  title: Mstream
+  type: '2'
+- image: linuxserver/musicbrainz:version-v-2021-02-15
+  name: musicbrainz
+  platform: linux
+  restart_policy: unless-stopped
+  title: Musicbrainz
+  type: '2'
+- image: linuxserver/muximux:version-057352e8
+  name: muximux
+  platform: linux
+  restart_policy: unless-stopped
+  title: Muximux
+  type: '2'
+- image: linuxserver/mylar:version-94dcfd13
+  name: mylar
+  platform: linux
+  restart_policy: unless-stopped
+  title: Mylar
+  type: '2'
+- image: linuxserver/mylar3:version-v0.5.0
+  name: mylar3
+  platform: linux
+  restart_policy: unless-stopped
+  title: Mylar3
+  type: '2'
+- image: linuxserver/mysql:79
+  name: mysql
+  platform: linux
+  restart_policy: unless-stopped
+  title: Mysql
+  type: '2'
+- image: linuxserver/mysql-workbench:version-8.0.23
+  name: mysql-workbench
+  platform: linux
+  restart_policy: unless-stopped
+  title: Mysql-workbench
+  type: '2'
+- image: linuxserver/nano:version-V21.2
+  name: nano
+  platform: linux
+  restart_policy: unless-stopped
+  title: Nano
+  type: '2'
+- image: linuxserver/nano-wallet:version-1.3.2
+  name: nano-wallet
+  platform: linux
+  restart_policy: unless-stopped
+  title: Nano-wallet
+  type: '2'
+- image: linuxserver/netbootxyz:version-0.6.3
+  name: netbootxyz
+  platform: linux
+  restart_policy: unless-stopped
+  title: Netbootxyz
+  type: '2'
+- image: linuxserver/netbox:version-v2.10.9
+  name: netbox
+  platform: linux
+  restart_policy: unless-stopped
+  title: Netbox
+  type: '2'
+- image: linuxserver/nextcloud:version-21.0.1
+  name: nextcloud
+  platform: linux
+  restart_policy: unless-stopped
+  title: Nextcloud
+  type: '2'
+- image: linuxserver/nginx:version-1.18.0-r13
+  name: nginx
+  platform: linux
+  restart_policy: unless-stopped
+  title: Nginx
+  type: '2'
+- image: linuxserver/ngircd:version-26.1-r0
+  name: ngircd
+  platform: linux
+  restart_policy: unless-stopped
+  title: Ngircd
+  type: '2'
+- image: linuxserver/nntp2nntp:version-0.3
+  name: nntp2nntp
+  platform: linux
+  restart_policy: unless-stopped
+  title: Nntp2nntp
+  type: '2'
+- image: linuxserver/nzbget:version-v21.0
+  name: nzbget
+  platform: linux
+  restart_policy: unless-stopped
+  title: Nzbget
+  type: '2'
+- image: linuxserver/nzbhydra2:version-v3.14.0
+  name: nzbhydra2
+  platform: linux
+  restart_policy: unless-stopped
+  title: Nzbhydra2
+  type: '2'
+- image: linuxserver/ombi:version-v3.0.5223
+  name: ombi
+  platform: linux
+  restart_policy: unless-stopped
+  title: Ombi
+  type: '2'
+- image: linuxserver/openssh-server:version-8.4_p1-r3
+  name: openssh-server
+  platform: linux
+  restart_policy: unless-stopped
+  title: Openssh-server
+  type: '2'
+- image: linuxserver/openvpn-as:version-2.8.7-c7d6c210-Ubuntu18
+  name: openvpn-as
+  platform: linux
+  restart_policy: unless-stopped
+  title: Openvpn-as
+  type: '2'
+- image: linuxserver/organizr:version-f6d984d2
+  name: organizr
+  platform: linux
+  restart_policy: unless-stopped
+  title: Organizr
+  type: '2'
+- image: linuxserver/oscam:version-11691
+  name: oscam
+  platform: linux
+  restart_policy: unless-stopped
+  title: Oscam
+  type: '2'
+- image: linuxserver/overseerr:version-v1.22.0
+  name: overseerr
+  platform: linux
+  restart_policy: unless-stopped
+  title: Overseerr
+  type: '2'
+- image: linuxserver/papermerge:version-v2.0.1
+  name: papermerge
+  platform: linux
+  restart_policy: unless-stopped
+  title: Papermerge
+  type: '2'
+- image: linuxserver/photoshow:version-48aabb98
+  name: photoshow
+  platform: linux
+  restart_policy: unless-stopped
+  title: Photoshow
+  type: '2'
+- image: linuxserver/piwigo:version-11.4.0
+  name: piwigo
+  platform: linux
+  restart_policy: unless-stopped
+  title: Piwigo
+  type: '2'
+- image: linuxserver/pixapop:version-v1.2
+  name: pixapop
+  platform: linux
+  restart_policy: unless-stopped
+  title: Pixapop
+  type: '2'
+- image: linuxserver/plex:version-1.22.2.4282-a97b03fad
+  name: plex
+  platform: linux
+  restart_policy: unless-stopped
+  title: Plex
+  type: '2'
+- image: linuxserver/plexpy:113
+  name: plexpy
+  platform: linux
+  restart_policy: unless-stopped
+  title: Plexpy
+  type: '2'
+- image: linuxserver/projectsend:version-r1070
+  name: projectsend
+  platform: linux
+  restart_policy: unless-stopped
+  title: Projectsend
+  type: '2'
+- image: linuxserver/pwndrop:version-1.0.1
+  name: pwndrop
+  platform: linux
+  restart_policy: unless-stopped
+  title: Pwndrop
+  type: '2'
+- image: linuxserver/pydio:version-8.2.5
+  name: pydio
+  platform: linux
+  restart_policy: unless-stopped
+  title: Pydio
+  type: '2'
+- image: linuxserver/pydio-cells:version-v2.2.5
+  name: pydio-cells
+  platform: linux
+  restart_policy: unless-stopped
+  title: Pydio-cells
+  type: '2'
+- image: linuxserver/pyload:version-daf7332c
+  name: pyload
+  platform: linux
+  restart_policy: unless-stopped
+  title: Pyload
+  type: '2'
+- image: linuxserver/pylon:version-v2.6.0
+  name: pylon
+  platform: linux
+  restart_policy: unless-stopped
+  title: Pylon
+  type: '2'
+- image: linuxserver/qbittorrent:version-14.3.4.99202104090418-7349-789803700ubuntu20.04.1
+  name: qbittorrent
+  platform: linux
+  restart_policy: unless-stopped
+  title: Qbittorrent
+  type: '2'
+- image: linuxserver/quassel-core:version-0.13.1
+  name: quassel-core
+  platform: linux
+  restart_policy: unless-stopped
+  title: Quassel-core
+  type: '2'
+- image: linuxserver/quassel-web:version-8e3201fa
+  name: quassel-web
+  platform: linux
+  restart_policy: unless-stopped
+  title: Quassel-web
+  type: '2'
+- env:
+  - default: '!UMASK_SET'
+    label: UMASK_SET
+    name: UMASK_SET
+  - default: '!TZ'
+    label: TZ
+    name: TZ
+  - default: '!PUID'
+    label: PUID
+    name: PUID
+  - default: '!PGID'
+    label: PGID
+    name: PGID
+  image: linuxserver/radarr:version-3.0.2.4552
+  name: radarr
+  platform: linux
+  ports:
+  - 7878:7878/tcp
+  restart_policy: unless-stopped
+  title: Radarr
+  type: '2'
+  volumes:
+  - bind: '!/movies'
+    container: /movies
+  - bind: '!/downloads'
+    container: /downloads
+  - bind: '!/config'
+    container: /config
+- image: linuxserver/raneto:version-0.17.0
+  name: raneto
+  platform: linux
+  restart_policy: unless-stopped
+  title: Raneto
+  type: '2'
+- image: linuxserver/rdesktop:version-92711516
+  name: rdesktop
+  platform: linux
+  restart_policy: unless-stopped
+  title: Rdesktop
+  type: '2'
+- image: linuxserver/remmina:1.2.0-rcgit.29dfsg-1ubuntu1-ls50
+  name: remmina
+  platform: linux
+  restart_policy: unless-stopped
+  title: Remmina
+  type: '2'
+- image: linuxserver/requestrr:version-V1.0.17
+  name: requestrr
+  platform: linux
+  restart_policy: unless-stopped
+  title: Requestrr
+  type: '2'
+- image: linuxserver/resilio-sync:version-2.7.2.1375
+  name: resilio-sync
+  platform: linux
+  restart_policy: unless-stopped
+  title: Resilio-sync
+  type: '2'
+- image: linuxserver/rsnapshot:version-1.4.3-r0
+  name: rsnapshot
+  platform: linux
+  restart_policy: unless-stopped
+  title: Rsnapshot
+  type: '2'
+- image: linuxserver/rutorrent:version-v3.10
+  name: rutorrent
+  platform: linux
+  restart_policy: unless-stopped
+  title: Rutorrent
+  type: '2'
+- image: linuxserver/sabnzbd:version-3.2.1
+  name: sabnzbd
+  platform: linux
+  restart_policy: unless-stopped
+  title: Sabnzbd
+  type: '2'
+- image: linuxserver/scrutiny:version-27b923b5
+  name: scrutiny
+  platform: linux
+  restart_policy: unless-stopped
+  title: Scrutiny
+  type: '2'
+- image: linuxserver/sickbeard:96
+  name: sickbeard
+  platform: linux
+  restart_policy: unless-stopped
+  title: Sickbeard
+  type: '2'
+- image: linuxserver/sickchill:version-2021.4.10
+  name: sickchill
+  platform: linux
+  restart_policy: unless-stopped
+  title: Sickchill
+  type: '2'
+- image: linuxserver/sickgear:version-release_0.23.17
+  name: sickgear
+  platform: linux
+  restart_policy: unless-stopped
+  title: Sickgear
+  type: '2'
+- image: linuxserver/sickrage:86207e9e-ls9
+  name: sickrage
+  platform: linux
+  restart_policy: unless-stopped
+  title: Sickrage
+  type: '2'
+- image: linuxserver/smokeping:version-2.7.3-r5
+  name: smokeping
+  platform: linux
+  restart_policy: unless-stopped
+  title: Smokeping
+  type: '2'
+- image: linuxserver/snapdrop:version-5c4aeb01
+  name: snapdrop
+  platform: linux
+  restart_policy: unless-stopped
+  title: Snapdrop
+  type: '2'
+- image: linuxserver/snipe-it:version-v5.1.4
+  name: snipe-it
+  platform: linux
+  restart_policy: unless-stopped
+  title: Snipe-it
+  type: '2'
+- image: linuxserver/sonarr:latest
+  name: sonarr
+  platform: linux
+  restart_policy: unless-stopped
+  title: Sonarr
+  type: '2'
+- image: linuxserver/sqlitebrowser:version-3.12.1-33048202104041633ubuntu18.04.1
+  name: sqlitebrowser
+  platform: linux
+  restart_policy: unless-stopped
+  title: Sqlitebrowser
+  type: '2'
+- image: linuxserver/swag:version-1.14.0
+  name: swag
+  platform: linux
+  restart_policy: unless-stopped
+  title: Swag
+  type: '2'
+- image: linuxserver/synclounge:version-5.1.88
+  name: synclounge
+  platform: linux
+  restart_policy: unless-stopped
+  title: Synclounge
+  type: '2'
+- image: linuxserver/syncthing:version-v1.15.1
+  name: syncthing
+  platform: linux
+  restart_policy: unless-stopped
+  title: Syncthing
+  type: '2'
+- image: linuxserver/taisun:version-v0.6.0
+  name: taisun
+  platform: linux
+  restart_policy: unless-stopped
+  title: Taisun
+  type: '2'
+- image: linuxserver/tautulli:version-v2.7.0
+  name: tautulli
+  platform: linux
+  restart_policy: unless-stopped
+  title: Tautulli
+  type: '2'
+- image: linuxserver/thelounge:version-4.2.0
+  name: thelounge
+  platform: linux
+  restart_policy: unless-stopped
+  title: Thelounge
+  type: '2'
+- image: linuxserver/transmission:version-3.00-r2
+  name: transmission
+  platform: linux
+  restart_policy: unless-stopped
+  title: Transmission
+  type: '2'
+- image: linuxserver/tvheadend:version-98a7c6cf
+  name: tvheadend
+  platform: linux
+  restart_policy: unless-stopped
+  title: Tvheadend
+  type: '2'
+- image: linuxserver/ubooquity:version-2.1.2
+  name: ubooquity
+  platform: linux
+  restart_policy: unless-stopped
+  title: Ubooquity
+  type: '2'
+- image: linuxserver/unifi:191
+  name: unifi
+  platform: linux
+  restart_policy: unless-stopped
+  title: Unifi
+  type: '2'
+- env:
+  - default: '!PUID'
+    label: PUID
+    name: PUID
+  - default: '!PGID'
+    label: PGID
+    name: PGID
+  - default: '!MEM_LIMIT'
+    label: MEM_LIMIT
+    name: MEM_LIMIT
+  image: linuxserver/unifi-controller:version-6.1.71
+  name: unifi-controller
+  platform: linux
+  ports:
+  - 10001:10001/udp
+  - 8880:8880/tcp
+  - 8843:8843/tcp
+  - 8443:8443/tcp
+  - 8080:8080/tcp
+  - 6789:6789/tcp
+  - 5514:5514/tcp
+  - 3478:3478/udp
+  - 1900:1900/udp
+  restart_policy: unless-stopped
+  title: Unifi-controller
+  type: '2'
+  volumes:
+  - bind: '!/config'
+    container: /config
+- image: linuxserver/webgrabplus:version-V3.1.7
+  name: webgrabplus
+  platform: linux
+  restart_policy: unless-stopped
+  title: Webgrabplus
+  type: '2'
+- image: linuxserver/wikijs:version-2.5.201
+  name: wikijs
+  platform: linux
+  restart_policy: unless-stopped
+  title: Wikijs
+  type: '2'
+- image: linuxserver/wireguard:version-v1.0.20210315
+  name: wireguard
+  platform: linux
+  restart_policy: unless-stopped
+  title: Wireguard
+  type: '2'
+- image: linuxserver/wireshark:version-2.4.5-1
+  name: wireshark
+  platform: linux
+  restart_policy: unless-stopped
+  title: Wireshark
+  type: '2'
+- image: linuxserver/yq:version-2.12.0
+  name: yq
+  platform: linux
+  restart_policy: unless-stopped
+  title: Yq
+  type: '2'
+- image: linuxserver/znc:version-znc-1.8.2
+  name: znc
+  platform: linux
+  restart_policy: unless-stopped
+  title: Znc
+  type: '2'
