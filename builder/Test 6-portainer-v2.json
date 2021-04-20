@@ -1,37 +1,4 @@
 {
     "version": "2",
-    "templates": [
-        {
-            "title": "Yacht",
-            "name": "yacht",
-            "image": "selfhostedpro/yacht:devel",
-            "description": "This is a description",
-            "categories": [
-                "System"
-            ],
-            "platform": "linux",
-            "note": "This is a note",
-            "restart_policy": "always",
-            "ports": [
-                "8000:8000/tcp",
-                "5050:5000/tcp"
-            ],
-            "volumes": [
-                {
-                    "container": "/config",
-                    "bind": "/AppData/Yacht/Config"
-                }
-            ],
-            "env": [
-                {
-                    "name": "THEME",
-                    "default": "RED",
-                    "description": "The theme to use with Yacht",
-                    "label": "Theme"
-                }
-            ],
-            "network_mode": "bridge",
-            "type": "1"
-        }
-    ]
+    "templates": "[\n    {\n        \"name\": \"registry\",\n        \"image\": \"registry:latest\",\n        \"logo\": \"https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png\",\n        \"restart_policy\": \"always\",\n        \"ports\": [\n            \"5000/tcp\"\n        ],\n        \"title\": \"Registry\",\n        \"categories\": [\n            \"docker\"\n        ],\n        \"description\": \"Docker image registry\",\n        \"type\": \"1\"\n    }\n]"
 }
