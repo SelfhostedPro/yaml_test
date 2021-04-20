@@ -1,0 +1,45 @@
+{
+  "version": "2",
+  "templates": [
+    {
+      "title": "Yacht",
+      "name": "yacht",
+      "image": "selfhostedpro/yacht",
+      "description": "Container Management WebUI",
+      "categories": [
+        "Downloads",
+        "Music",
+        "TV",
+        "Movies"
+      ],
+      "platform": "linux",
+      "note": "This is a note",
+      "restart_policy": "always",
+      "ports": [
+        {
+          "WebUI": "8000:8000/tcp"
+        }
+      ],
+      "volumes": [
+        {
+          "container": "/config",
+          "bind": "!config"
+        }
+      ],
+      "env": [
+        {
+          "name": "THEME",
+          "default": "RED",
+          "description": "The theme you'd like to use with Yacht",
+          "label": "Theme"
+        }
+      ],
+      "command": [],
+      "devices": [],
+      "labels": [],
+      "sysctls": [],
+      "cap_add": [],
+      "network_mode": "bridge"
+    }
+  ]
+}
