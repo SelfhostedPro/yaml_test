@@ -1,0 +1,29 @@
+{
+    "version": "2",
+    "templates": [
+        {
+            "name": "registry",
+            "image": "registry:latest",
+            "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
+            "restart_policy": "always",
+            "ports": [
+                "5000/tcp"
+            ],
+            "volumes": [],
+            "env": [],
+            "devices": [],
+            "labels": [],
+            "sysctls": [],
+            "cap_add": [],
+            "mem_limit": "",
+            "cpus": "",
+            "title": "Registry",
+            "categories": [
+                "docker"
+            ],
+            "description": "Docker image registry",
+            "network_mode": null,
+            "type": "1"
+        }
+    ]
+}
