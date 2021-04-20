@@ -1,0 +1,43 @@
+{
+    "version": "2",
+    "templates": [
+        {
+            "title": "Yacht",
+            "name": "yacht",
+            "image": "selfhostedpro/yacht:devel",
+            "description": "This is a description",
+            "categories": [
+                "System"
+            ],
+            "platform": "linux",
+            "note": "This is a note",
+            "restart_policy": "always",
+            "ports": [
+                "8000:8000/tcp",
+                "5050:5000/tcp"
+            ],
+            "volumes": [
+                {
+                    "container": "/config",
+                    "bind": "/AppData/Yacht/Config"
+                }
+            ],
+            "env": [
+                {
+                    "name": "THEME",
+                    "default": "RED",
+                    "description": "The theme to use with Yacht",
+                    "label": "Theme"
+                }
+            ],
+            "command": [],
+            "devices": [],
+            "labels": [],
+            "sysctls": [],
+            "cap_add": [],
+            "logo": "https://yacht.sh/img/logo.svg",
+            "network_mode": "bridge",
+            "type": "1"
+        }
+    ]
+}
