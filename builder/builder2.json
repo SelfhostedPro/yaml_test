@@ -1,0 +1,65 @@
+[
+  {
+    "title": "Yacht",
+    "name": "yacht",
+    "image": "selfhostedpro/yacht:devel",
+    "restart_policy": "unless-stopped",
+    "ports": [
+      {
+        "WebUI": "8080:8000/tcp",
+        "API": "5050:50000/tcp"
+      }
+    ],
+    "volumes": [
+      {
+        "container": "/config",
+        "bind": "!config"
+      }
+    ],
+    "env": [
+      {
+        "name": "THEME",
+        "default": "RED",
+        "description": "Theme yacht should use",
+        "label": "Theme"
+      }
+    ],
+    "command": [
+      "echo 0",
+      "echo 1"
+    ],
+    "devices": [
+      {
+        "container": "/dev/container",
+        "host": "/dev/host"
+      }
+    ],
+    "labels": [
+      {
+        "label": "label1",
+        "value": "label-1",
+        "variable": "!label1"
+      }
+    ],
+    "sysctls": [
+      {
+        "sysctl.name": "0"
+      }
+    ],
+    "cap_add": [
+      "SYS_ADMIN"
+    ],
+    "logo": "https://yacht.sh/img/logo-light.svg",
+    "network_mode": "bridge",
+    "platform": "linux",
+    "note": "This is a note\nThis is another line",
+    "categories": [
+      "Super",
+      "Downloads",
+      "Music"
+    ],
+    "cpus": "1",
+    "mem_limit": "1g",
+    "description": "This is a description"
+  }
+]
