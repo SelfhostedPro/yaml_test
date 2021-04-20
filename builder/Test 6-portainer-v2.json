@@ -30,12 +30,6 @@
                     "label": "Theme"
                 }
             ],
-            "command": [],
-            "devices": [],
-            "labels": [],
-            "sysctls": [],
-            "cap_add": [],
-            "logo": "https://yacht.sh/img/logo.svg",
             "network_mode": "bridge",
             "type": "1"
         }
