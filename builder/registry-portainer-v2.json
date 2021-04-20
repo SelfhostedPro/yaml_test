@@ -1,0 +1,22 @@
+{
+    "version": "2",
+    "templates": [
+        {
+            "title": "Registry",
+            "name": "registry",
+            "image": "registry:latest",
+            "description": "Docker image registry",
+            "categories": [
+                "docker"
+            ],
+            "platform": "linux",
+            "restart_policy": "always",
+            "ports": [
+                "5000/tcp"
+            ],
+            "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
+            "network_mode": "bridge",
+            "type": "1"
+        }
+    ]
+}
