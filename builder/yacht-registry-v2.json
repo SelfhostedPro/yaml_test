@@ -1,0 +1,80 @@
+{
+    "version": "2",
+    "templates": [
+        {
+            "title": "Registry",
+            "name": "registry",
+            "image": "registry:latest",
+            "description": "Docker image registry",
+            "categories": [
+                "docker"
+            ],
+            "platform": "linux",
+            "restart_policy": "always",
+            "ports": [
+                "5000/tcp"
+            ],
+            "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
+            "network_mode": "bridge",
+            "type": 1
+        },
+        {
+            "title": "Yacht",
+            "name": "yacht",
+            "image": "selfhostedpro/yacht:devel",
+            "description": "A docker container management WebUI",
+            "categories": [
+                "docker",
+                "system"
+            ],
+            "platform": "linux",
+            "note": "This is a note",
+            "restart_policy": "always",
+            "ports": [
+                "8000:8000/tcp"
+            ],
+            "volumes": [
+                {
+                    "container": "/config",
+                    "bind": "/AppData/Yacht/Config"
+                }
+            ],
+            "env": [
+                {
+                    "name": "THEME",
+                    "default": "RED",
+                    "description": "The theme that Yacht should use",
+                    "label": "Theme"
+                }
+            ],
+            "command": [
+                "echo 0"
+            ],
+            "devices": [
+                {
+                    "container": "/dev/zero",
+                    "host": "/dev/zero"
+                }
+            ],
+            "labels": [
+                {
+                    "label": "this.is.a.label",
+                    "value": "0",
+                    "variable": "!label"
+                }
+            ],
+            "sysctls": [
+                {
+                    "sysctl.name": "0"
+                }
+            ],
+            "cap_add": [
+                "SYS_RAWIO",
+                "SYS_MODULE"
+            ],
+            "logo": "https://yacht.sh/img/logo.svg",
+            "network_mode": "bridge",
+            "type": 1
+        }
+    ]
+}
