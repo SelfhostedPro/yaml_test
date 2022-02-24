@@ -51,7 +51,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Images/adguard.png",
     "type": 1
@@ -117,7 +116,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Images/airsonic-logo.png",
     "type": 1
@@ -165,7 +163,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/caronc/apprise-api/master/apprise_api/static/logo.png",
     "type": 1
@@ -211,7 +208,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/audacity-logo.png",
     "type": 1
@@ -245,7 +241,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/babybuddy-logo.png",
     "type": 1
@@ -298,7 +293,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Images/bazarr.png",
     "type": 1
@@ -346,7 +340,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Images/beets-icon.png",
     "type": 1
@@ -400,7 +393,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/BOINC/boinc/master/doc/logo/boinc_logo_black.jpg",
     "type": 1
@@ -454,7 +446,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Images/booksonic.png",
     "type": 1
@@ -520,7 +511,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/booksonic-air.png",
     "type": 1
@@ -592,7 +582,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://s3-us-west-2.amazonaws.com/linuxserver-docs/images/bookstack-logo500x500.png",
     "type": 1
@@ -653,7 +642,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://github.com/kovidgoyal/calibre/raw/master/resources/images/lt.png",
     "type": 1
@@ -698,7 +686,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Images/calibre-web-icon.png",
     "type": 1
@@ -765,7 +752,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "category": [
       "Other",
@@ -844,7 +830,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/cloud9.png",
     "type": 1
@@ -928,7 +913,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/code-server-banner.png",
     "type": 1
@@ -980,7 +964,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/cops-icon.png",
     "type": 1
@@ -1036,7 +1019,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://couchpota.to/media/images/full.png",
     "type": 1
@@ -1086,7 +1068,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/linuxserver/beta-templates/master/lsiodev/img/daapd-git.png",
     "network": "host",
@@ -1135,7 +1116,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/darktable-logo.png",
     "type": 1
@@ -1187,7 +1167,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/linuxserver/davos/master/docs/list.PNG",
     "type": 1
@@ -1233,7 +1212,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/ddclient-logo.png",
     "type": 1
@@ -1293,7 +1271,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://avatars2.githubusercontent.com/u/6733935?v=3&s=200",
     "type": 1
@@ -1341,7 +1318,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/digikam.png",
     "network": "host",
@@ -1390,7 +1366,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/dillinger.png",
     "type": 1
@@ -1466,7 +1441,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/diskoverdata/diskover-community/master/diskover-web/public/images/diskover.png",
     "type": 1
@@ -1512,7 +1486,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "",
     "type": 1
@@ -1561,7 +1534,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/dokuwiki-icon.png",
     "type": 1
@@ -1617,7 +1589,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://github.com/domoticz/domoticz/raw/master/www/images/logo.png",
     "type": 1
@@ -1669,7 +1640,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/doublecommander-icon.png",
     "type": 1
@@ -1731,7 +1701,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/duckdns.png",
     "type": 1
@@ -1791,7 +1760,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/duplicati-icon.png",
     "type": 1
@@ -1852,7 +1820,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/emby-logo.png",
     "type": 1
@@ -1898,7 +1865,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/embystat-logo.png",
     "type": 1
@@ -1952,7 +1918,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/emulatorjs-logo.png",
     "type": 1
@@ -2028,7 +1993,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/openssh-server-logo.png",
     "type": 1
@@ -2074,7 +2038,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "",
     "type": 1
@@ -2120,7 +2083,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/filezilla-logo.png",
     "type": 1
@@ -2166,7 +2128,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/firefox-logo.png",
     "type": 1
@@ -2236,7 +2197,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "",
     "type": 1
@@ -2283,7 +2243,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://foldingathome.org/wp-content/uploads/2016/09/folding-at-home-logo.png",
     "type": 1
@@ -2329,7 +2288,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/freshrss-banner.png",
     "type": 1
@@ -2377,7 +2335,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/grav-logo.png",
     "type": 1
@@ -2423,7 +2380,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://grocy.info/img/grocy_logo.svg",
     "type": 1
@@ -2445,7 +2401,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/guacd.png",
     "type": 1
@@ -2498,7 +2453,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/bwssytems/ha-bridge/master/src/main/resources/public/img/favicon.ico",
     "type": 1
@@ -2552,7 +2506,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/headphones-banner.png",
     "type": 1
@@ -2676,7 +2629,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/healthchecks/healthchecks/master/static/img/welcome.png",
     "type": 1
@@ -2772,7 +2724,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/hedgedoc-banner.png",
     "type": 1
@@ -2819,7 +2770,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/heimdall-banner.png",
     "type": 1
@@ -2867,7 +2817,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://github.com/home-assistant/home-assistant.io/raw/next/source/images/favicon-192x192-full.png",
     "network": "host",
@@ -2920,7 +2869,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Ipfs-logo-1024-ice-text.png/480px-Ipfs-logo-1024-ice-text.png",
     "type": 1
@@ -2982,7 +2930,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/jackett-banner.png",
     "type": 1
@@ -3045,7 +2992,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/jellyfin/jellyfin-ux/master/branding/SVG/banner-logo-solid.svg?sanitize=true",
     "type": 1
@@ -3091,7 +3037,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "",
     "type": 1
@@ -3149,7 +3094,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/kanzi.png",
     "type": 1
@@ -3209,7 +3153,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/lazylibrarian-icon.png",
     "type": 1
@@ -3257,7 +3200,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://jumpcloud.com/wp-content/uploads/2016/12/LDAP_Logo-1420591101.jpg",
     "type": 1
@@ -3305,7 +3247,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/libreoffice-logo.png",
     "type": 1
@@ -3399,7 +3340,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/librespeed/speedtest/master/.logo/logo3.png",
     "type": 1
@@ -3453,7 +3393,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://github.com/lidarr/Lidarr/raw/develop/Logo/400.png",
     "type": 1
@@ -3499,7 +3438,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-limnoria/master/logo.png",
     "type": 1
@@ -3573,7 +3511,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/lychee-icon.png",
     "type": 1
@@ -3649,7 +3586,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mariadb-git.png",
     "type": 1
@@ -3703,7 +3639,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/medusa-icon.png",
     "type": 1
@@ -3755,7 +3690,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/linuxserver/beta-templates/master/lsiodev/img/minetest-icon.png",
     "type": 1
@@ -3809,7 +3743,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/minisatip-icon.png",
     "type": 1
@@ -3859,7 +3792,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mstream-icon.png",
     "type": 1
@@ -3905,7 +3837,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/muximux-icon.png",
     "type": 1
@@ -3953,7 +3884,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mylar-icon.png",
     "type": 1
@@ -3999,7 +3929,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mysql-workbench-icon.png",
     "type": 1
@@ -4089,7 +4018,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Nano_logo.png/640px-Nano_logo.png",
     "type": 1
@@ -4111,7 +4039,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Nano_logo.png/640px-Nano_logo.png",
     "type": 1
@@ -4175,7 +4102,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://netboot.xyz/images/netboot.xyz.gif",
     "type": 1
@@ -4341,7 +4267,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/netbox-community/netbox/develop/docs/netbox_logo.svg",
     "type": 1
@@ -4391,7 +4316,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/nextcloud-icon.png",
     "type": 1
@@ -4438,7 +4362,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/nginx-banner.png",
     "type": 1
@@ -4484,7 +4407,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/ngircd-logo.png",
     "type": 1
@@ -4542,7 +4464,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/nntp2nntp.png",
     "type": 1
@@ -4598,7 +4519,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/nzbget-banner.png",
     "type": 1
@@ -4648,7 +4568,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/hydra-icon.png",
     "type": 1
@@ -4700,7 +4619,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/ombi.png",
     "type": 1
@@ -4800,7 +4718,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://upload.wikimedia.org/wikipedia/en/6/65/OpenSSH_logo.png",
     "type": 1
@@ -4870,7 +4787,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/openvscode-server-logo.png",
     "type": 1
@@ -4916,7 +4832,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/oscam-logo.png",
     "type": 1
@@ -4964,7 +4879,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/overseerr.png",
     "type": 1
@@ -5020,7 +4934,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "",
     "type": 1
@@ -5076,7 +4989,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/papermerge-icon.png",
     "type": 1
@@ -5130,7 +5042,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/photoshow-icon.png",
     "type": 1
@@ -5190,7 +5101,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/phpmyadmin-logo.png",
     "type": 1
@@ -5236,7 +5146,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/pidgin-logo.png",
     "type": 1
@@ -5286,7 +5195,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/piwigo-banner.png",
     "type": 1
@@ -5350,7 +5258,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/pixapop.png",
     "type": 1
@@ -5408,7 +5315,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "http://the-gadgeteer.com/wp-content/uploads/2015/10/plex-logo-e1446990678679.png",
     "network": "host",
@@ -5465,7 +5371,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "http://www.projectsend.org/wp-content/themes/projectsend/img/screenshots.png",
     "type": 1
@@ -5517,7 +5422,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/kgretzky/pwndrop/master/media/pwndrop-logo-512.png",
     "type": 1
@@ -5576,7 +5480,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/wiki/pydio/cells/images/PydioCellsColor.png",
     "type": 1
@@ -5627,7 +5530,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/pyload-icon.png",
     "type": 1
@@ -5695,7 +5597,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/pylonide/pylon/master/doc/screenshot02.png",
     "type": 1
@@ -5753,7 +5654,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/qbittorrent-icon.png",
     "type": 1
@@ -5806,7 +5706,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "http://icons.iconarchive.com/icons/oxygen-icons.org/oxygen/256/Apps-quassel-icon.png",
     "type": 1
@@ -5864,7 +5763,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/quassel-web-banner.png",
     "type": 1
@@ -5918,7 +5816,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/radarr.png",
     "type": 1
@@ -5964,7 +5861,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/gilbitron/Raneto/master/logo/logo_readme.png",
     "type": 1
@@ -6014,7 +5910,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/rdesktop.png",
     "privileged": true,
@@ -6061,7 +5956,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/remmina-icon.png",
     "type": 1
@@ -6109,7 +6003,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://github.com/darkalfx/requestrr/raw/master/Logos/requestrr_discord_Icon_512.png",
     "type": 1
@@ -6164,7 +6057,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://www.resilio.com/img/individual/freeproduct.jpg",
     "type": 1
@@ -6218,7 +6110,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/rsnapshot.png",
     "type": 1
@@ -6273,7 +6164,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/sabnzbd-banner.png",
     "type": 1
@@ -6341,7 +6231,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/AnalogJ/scrutiny/master/docs/dashboard.png",
     "type": 1
@@ -6395,7 +6284,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/sickchill-banner.png",
     "type": 1
@@ -6443,7 +6331,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/wiki/SickGear/SickGear.Wiki/images/SickGearLogo.png",
     "type": 1
@@ -6493,7 +6380,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://camo.githubusercontent.com/e0694ef783e3fd1d74e6776b28822ced01c7cc17/687474703a2f2f6f73732e6f6574696b65722e63682f736d6f6b6570696e672f696e632f736d6f6b6570696e672d6c6f676f2e706e67",
     "type": 1
@@ -6540,7 +6426,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/RobinLinus/snapdrop/master/client/images/logo_transparent_512x512.png",
     "type": 1
@@ -6616,7 +6501,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://s3-us-west-2.amazonaws.com/linuxserver-docs/images/snipe-it-logo500x500.png",
     "type": 1
@@ -6672,7 +6556,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/sonarr-banner.png",
     "type": 1
@@ -6718,7 +6601,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/sqlitebrowser-banner.png",
     "type": 1
@@ -6831,7 +6713,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/swag.gif",
     "type": 1
@@ -6878,7 +6759,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/synclounge-banner.png",
     "type": 1
@@ -6935,7 +6815,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/syncthing-banner.png",
     "type": 1
@@ -6989,7 +6868,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/syslog-ng-logo.png",
     "type": 1
@@ -7016,7 +6894,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/Taisun-Docker/taisun/master/public/favicon/apple-icon-180x180.png",
     "type": 1
@@ -7062,7 +6939,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/tautulli-icon.png",
     "type": 1
@@ -7108,7 +6984,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/thelounge/thelounge/master/client/img/logo-vertical-transparent-bg.svg?sanitize=true",
     "type": 1
@@ -7194,7 +7069,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/transmission.png",
     "type": 1
@@ -7251,7 +7125,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/tvheadend-big.png",
     "type": 1
@@ -7316,7 +7189,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/ubooquity-banner.png",
     "type": 1
@@ -7378,7 +7250,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/unifi-banner.png",
     "type": 1
@@ -7426,7 +7297,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "http://www.webgrabplus.com/sites/default/themes/WgTheme/images/slideshows/EPG_fading.jpg",
     "type": 1
@@ -7484,7 +7354,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/webtop-logo.png",
     "privileged": true,
@@ -7535,7 +7404,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://static.requarks.io/logo/wikijs-full.svg",
     "type": 1
@@ -7621,7 +7489,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://www.wireguard.com/img/wireguard.svg",
     "type": 1
@@ -7667,7 +7534,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/wireshark-icon.png",
     "network": "host",
@@ -7715,7 +7581,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/SergiX44/XBackBone/master/docs/img/xbackbone.png",
     "type": 1
@@ -7761,7 +7626,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "",
     "type": 1
@@ -7807,7 +7671,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "http://wiki.znc.in/resources/assets/wiki.png",
     "type": 1
@@ -7866,7 +7729,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "category": [
       "Music"
@@ -7924,7 +7786,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "category": [
       "Music",
@@ -7972,7 +7833,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "category": [
       "Web",
@@ -8019,7 +7879,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "category": [
       "Productivity"
@@ -8065,7 +7924,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "category": [
       "Video"
@@ -8113,7 +7971,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "category": [
       "Cloud",
@@ -8166,7 +8023,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "category": [
       "Other"
@@ -8217,7 +8073,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "category": [
       "Downloaders",
@@ -8299,7 +8154,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "category": [
       "Tools",
@@ -8350,7 +8204,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "category": [
       "Downloaders"
@@ -8395,7 +8248,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "category": [
       "Other",
@@ -8435,7 +8287,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Images/authelia.png",
     "type": 1
@@ -8465,7 +8316,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Images/bitwarden.png",
     "type": 1
@@ -8495,7 +8345,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Images/chowdown.png",
     "type": 1
@@ -8525,7 +8374,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Images/dashmachine_logo.png",
     "type": 1
@@ -8559,7 +8407,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Images/deemix.png",
     "type": 1
@@ -8593,7 +8440,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Images/filebrowser.png",
     "type": 1
@@ -8623,7 +8469,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Images/guacamole.png",
     "type": 1
@@ -8657,7 +8502,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Images/homer.png",
     "type": 1
@@ -8697,7 +8541,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Images/mcmyadmin-icon.png",
     "type": 1
@@ -8756,7 +8599,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Images/Mumble-logo.png",
     "type": 1
@@ -8798,7 +8640,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Images/proxy_mgr.png",
     "type": 1
@@ -8836,7 +8677,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Images/pihole.png",
     "type": 1
@@ -8884,7 +8724,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/linuxserver/beta-templates/master/lsiodev/img/plexrequests-icon.png",
     "type": 1
@@ -8917,7 +8756,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Images/protonmail-bridge.png",
     "type": 1
@@ -8958,7 +8796,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Images/prowlarr.png",
     "type": 1
@@ -8988,7 +8825,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Images/reactiveresume.png",
     "type": 1
@@ -9018,7 +8854,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Images/shiori-icon.png",
     "type": 1
@@ -9048,7 +8883,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Images/snibox.png",
     "type": 1
@@ -9078,7 +8912,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Images/tiddlywiki.png",
     "type": 1
@@ -9118,7 +8951,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Images/tt-rss-icon.png",
     "type": 1
@@ -9185,7 +9017,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Images/transmission-icon.png",
     "type": 1
@@ -9214,7 +9045,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Images/watchtower.png",
     "type": 1
@@ -9244,7 +9074,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Images/whoogle.png",
     "type": 1
@@ -9278,7 +9107,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/SelfhostedPro/Yacht/master/readme_media/Yacht_logo_1_dark.png",
     "type": 1
@@ -9324,7 +9152,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Images/ytdlm.png",
     "type": 1
@@ -9354,7 +9181,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/mikestraney/portainer-templates/master/Images/bitwarden.png",
     "type": 1
@@ -9384,7 +9210,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/caddy.png",
     "type": 1
@@ -9410,10 +9235,11 @@
       }
     ],
     "env": [],
-    "command": "start --insecure",
+    "command": [
+      "start --insecure"
+    ],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/cockroachdb.png",
     "type": 1
@@ -9443,7 +9269,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/ortussolutions-commandbox.png",
     "type": 1
@@ -9488,7 +9313,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/ortussolutions-contentbox.png",
     "type": 1
@@ -9517,7 +9341,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/cratedb.png",
     "type": 1
@@ -9560,7 +9383,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/datadog_agent.png",
     "type": 1
@@ -9588,7 +9410,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/drupal.png",
     "type": 1
@@ -9617,7 +9438,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/elasticsearch.png",
     "type": 1
@@ -9645,7 +9465,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/ghost.png",
     "type": 1
@@ -9682,7 +9501,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/gitlab_ce.png",
     "type": 1
@@ -9724,7 +9542,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/mikestraney/portainer-templates/master/Images/htpcmanager-icon.png",
     "type": 1
@@ -9752,7 +9569,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/httpd.png",
     "type": 1
@@ -9782,7 +9598,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://raw.githubusercontent.com/mikestraney/portainer-templates/master/Images/huginn.png",
     "type": 1
@@ -9810,7 +9625,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/ironfunctions.png",
     "privileged": true,
@@ -9844,7 +9658,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/ironfunctions.png",
     "privileged": true,
@@ -9879,7 +9692,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/jenkins.png",
     "type": 1
@@ -9917,7 +9729,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/joomla.png",
     "type": 1
@@ -9947,7 +9758,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/magento.png",
     "type": 1
@@ -9985,7 +9795,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/mautic.png",
     "type": 1
@@ -10022,10 +9831,11 @@
         "name": "MINIO_SECRET_KEY"
       }
     ],
-    "command": "server /data",
+    "command": [
+      "server /data"
+    ],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/minio.png",
     "type": 1
@@ -10047,7 +9857,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/openfaas.png",
     "repository": {
@@ -10080,7 +9889,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/plesk.png",
     "type": 1
@@ -10108,7 +9916,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/plone.png",
     "type": 1
@@ -10130,7 +9937,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/portainer.png",
     "repository": {
@@ -10171,7 +9977,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/postgres.png",
     "type": 1
@@ -10199,7 +10004,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/redis.png",
     "type": 1
@@ -10227,7 +10031,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/redmine.png",
     "type": 1
@@ -10255,7 +10058,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
     "type": 1
@@ -10295,7 +10097,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/scality-s3.png",
     "type": 1
@@ -10332,7 +10133,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/sematext_agent.png",
     "privileged": true,
@@ -10361,7 +10161,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/solr.png",
     "type": 1
@@ -10394,7 +10193,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/microsoft.png",
     "type": 1
@@ -10431,7 +10229,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/microsoft.png",
     "type": 1
@@ -10468,7 +10265,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/microsoft.png",
     "type": 1
@@ -10499,7 +10295,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/urbackup.png",
     "type": 1
@@ -10540,7 +10335,6 @@
     "command": [],
     "devices": [],
     "labels": [],
-    "sysctls": [],
     "cap_add": [],
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/wowza.png",
     "type": 1
